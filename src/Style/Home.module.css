@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;   
+    border: 0px solid red;
+}
+:root{
+    font-family: 'Segoe UI', sans-serif;
+}
+
+a:link{
+    color: rgba(255,255,255,1);
+    text-decoration: underline;
+}
+a:visited{
+    color: rgba(255, 255, 255, 1);
+}
+a:hover{
+    color: white;
+    text-decoration: underline;
+}
+a:active{
+    color: white;
+}
+
+.home{
+    width: 100vw;
+    height: 100vh;
+}
+
+.glass{
+    
+    background-color: #202124;
+    width: 100vw;
+    height: 100vh;
+}
+
+.content{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.credit{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+}
+.info{
+    color: rgba(255, 255, 255, 1);
+}
+
+.heart{
+    display: inline;
+    color: red;
+}
+
+.logo{
+    height: 20em;
+    width: 30em;
+    background-image: url("../Asset/opensky.svg");
+    background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.backdrop {
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    opacity: .3;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.umb {
+    top: 5%;
+    left: 10%;
+    transform: rotate(40deg);
+    background-image: url("../Asset/umb.png");
+}
+.earth{
+    top: 17%;
+    right: 16%;
+    background-image: url("../Asset/earth.png");
+}
+.moon{
+    top: 30%;
+    left: 20%;
+    transform: rotate(40deg);
+    background-image: url("../Asset/moon.png");
+}
+.cloud{
+    top: 55%;
+    right: 10%;
+    transform: rotate(10deg);
+    background-image: url("../Asset/cloud.png");
+}
+.sun{
+    top: 68%;
+    left: 7%;
+    transform: rotate(40deg);
+    background-image: url("../Asset/sun.png");
+}
+.baloon{
+    top: 12%;
+    right: 43%;
+    transform: rotate(-10deg);
+    background-image: url("../Asset/baloon.png");
+}
+.plane{
+    top: 84%;
+    left: 34%;
+    transform: rotate(10deg);
+    background-image: url("../Asset/plane.png");
+}
+.star{
+    top: 77%;
+    right: 26%;
+    transform: rotate(-40deg);
+    background-image: url("../Asset/star.png");
+}
+.fix{
+    margin-top: -50px;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width:1100px) {
+    .logo{
+        width: 30em;
+        height: 20em;
+    }
+    
+}
+
+@media screen and (max-width:650px) {
+    .logo{
+        width: 20em;
+        height: 14em;
+        margin-bottom: 30px;
+    }
+}

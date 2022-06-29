@@ -1,0 +1,149 @@
+.searchInput{
+    height: 3em;
+    width: 24em;
+    border-radius: 35px;
+    background-color: rgba(255,255,255,1);
+    color: #111;
+    font-size: 16px;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: 0px;
+}
+.searchInput:focus{
+    border-right:0px;
+    outline: none;
+}
+searchInput:active{
+    border-right:0px;
+}
+searchInput:hover{
+    border-right:0px;
+}
+.searchBar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #202124;
+    margin-bottom: 7em;
+}
+
+.clear{
+    background-color: white;
+    height: 2.5em;
+    width: 1em;
+    font-size: larger;
+    cursor: pointer;
+    color: #202124;
+}
+
+.mic{
+    height: 2.5em;
+    width: 2em;
+    font-size: larger;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+    color: #202124;
+}
+.mic:hover{
+    background-color: rgba(255, 255, 255, 0.7);
+}
+.s{
+    display: flex;
+    justify-items: center;
+    flex-direction: row;
+    align-items: center;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+.search{
+    height: 2.5em;
+    width: 2em;
+    padding-right: 0.5em;
+    font-size: larger;
+    background-color: white;
+    color: #202124;
+    cursor: pointer;
+    border-radius: 0 35px 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search:hover{
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.helper{
+    color: yellow;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+.microphoneStatus{
+    font-size: x-large;
+    color: #202124;
+}
+.micIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    width: 50px;
+    height: 50px;
+    background-color: #cc0000;
+    border-radius: 50%;
+    color: #ffffff;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.btnHolder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.actBtn{
+    border: none;
+    background-color: #eac84a;
+    padding: 5px 10px;
+    width: fit-content;
+    display: inline-block;
+    border-radius: 4px;
+    font-size: larger;
+    margin: 0 5px;
+}
+.speech{
+    font-size: 16px;
+}
+.microphoneWrapper{
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    width: 30em;
+    height: 20em;
+    background-color: #fff;
+    box-shadow: 24px;
+    border-radius: 4px;
+    padding: 20px 30px;
+}
+
+@media screen and (max-width:1100px) {
+    
+}
+
+@media screen and (max-width:650px) {
+    .searchInput{
+        width: 10em;
+        text-overflow: clip;
+    }
+    .mic{
+        height: 1.75;
+        width: 2em;
+    }
+}
